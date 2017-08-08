@@ -2,9 +2,10 @@ OBJECT Table 18 Customer
 {
   OBJECT-PROPERTIES
   {
-    Date=17/06/30;
-    Time=12:00:00 PM;
-    Version List=NAVW110.0.00.17501;
+    Date=17/08/08;
+    Time=[ 3:37:50 PM];
+    Modified=Yes;
+    Version List=NAVW110.0.00.17501,#1;
   }
   PROPERTIES
   {
@@ -1140,6 +1141,7 @@ OBJECT Table 18 Customer
                                                    CaptionML=ENU=Copy Sell-to Addr. to Qte From;
                                                    OptionCaptionML=ENU=Company,Person;
                                                    OptionString=Company,Person }
+    { 50000;  ;nic was here        ;Text30         }
   }
   KEYS
   {
@@ -1717,6 +1719,9 @@ OBJECT Table 18 Customer
     END;
 
     BEGIN
+    {
+      #1 ;laskdjf;laksdjflk;asjdfl;kjasf
+    }
     END.
   }
 }
